@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-372x7gf+kg6b^#a58!#*c#grg(tjf&-(p6=#$%n(&0(*!ec#y@'
+SECRET_KEY = 'django-insecure-x&^xw8twzq4n-%h8(hr0qtj1v##afbtfr_%9n+q-vky6w27!$t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'qa',
+    'main',
 ]
 
 MIDDLEWARE = [
@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'qna_site.urls'
+ROOT_URLCONF = 'csrf_demo.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'qna_site.wsgi.application'
+WSGI_APPLICATION = 'csrf_demo.wsgi.application'
 
 
 # Database
